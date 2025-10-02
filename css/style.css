@@ -227,7 +227,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    /* background: #000; */
+    background: #000;
     overflow-x: scroll;
     height: 100rem;
     /* width: 100%; */

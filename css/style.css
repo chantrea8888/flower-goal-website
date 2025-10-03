@@ -76,12 +76,15 @@ section{
     padding: 2rem 9%;
 }
 
+
+
+
 .home{
     
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(/image/cover.png) no-repeat;
+    background: url(/image/C1.png) no-repeat;
     background-size: cover;
     background-position: center;
     
@@ -89,13 +92,13 @@ section{
 .home .content{
     max-width: 50rem;
     border: .1rem solid #8a7a7a6b;
-    background: pink;
+    background: rgba(160, 129, 137, 0.364);
     border-radius: 2rem;
     padding: 2rem;
 }
 .home .content h3{
     font-size: 6rem;
-    color: #333;
+    color: #000;
 }
 .home .content span{
     font-size: 3rem;

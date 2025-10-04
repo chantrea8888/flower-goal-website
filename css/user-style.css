@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    background: pink;
+    margin-bottom: 40rem;
+    border: 1px solid #999;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: #000;
+}
+
+h1{
+    color: #4ec197;
+    text-align: center;
+    margin: 1rem;
+}
+
+.user {
+    background: #fff;
+    width: 50%;
+    padding: 30px;
+    height: 60vh;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex: 1;
+    background: rgb(79, 92, 92);
+    width: 100%;
+
+}
+
+.container .Ps {
+    background-color: #4ec197;
+    color: white;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container p:not(.Ps) {
+    color: #ccc;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-container .btn1 {
+    background: teal;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.form-name {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    background-color:#fff;
+    border: 1px solid #999;
+    color: white;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: .5rem;
+}
+.btn-foot {
+    width: 100%;
+    padding: 12px;
+    background-color: #4ec197;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.email{
+    width: 100%;
+    display: flex;
+}
+.Password{
+    width: 100%;
+    display: flex;
+
+}
+.email input{
+    flex: 1;
+}
+.Password input{
+    flex: 1;
+}

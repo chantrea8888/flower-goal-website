@@ -320,11 +320,19 @@ section{
 }
 .products .box-container .box .btn{
     margin: 2rem;
-    margin-left: 8rem;
+    margin-left: 8rem; 
     margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products .box-container .box a .btn{
+    margin-left: 3rem;    
 }
 
-
+.products .box-container .box a .btn:hover{
+    background: pink;
+} */
 
 .products h2{
     color:var(--pink);
@@ -486,7 +494,7 @@ section{
 
 .footer .box-container .box{
     flex: 1 1 25rem;
-    /* background: pink; */
+    
 }
 
 .footer .box-container h3{
@@ -558,7 +566,7 @@ section{
 
 
 
-@media (max-width: 991px) {
+@media (max-width: 2560px) {
     html{
         font-size: 55%;
 
@@ -571,6 +579,13 @@ section{
     }
     .home{
         background-position: left;
+    }
+    
+    .products .box-container .box a .btn{
+        margin-left: 90px;
+    }
+    .contact .row .image img{
+        font-size: 180px;
     }
     
 }
@@ -605,13 +620,15 @@ section{
         font-size: 5rem;
     }
 
+    .products .box-container .box a .btn{
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
 
 }
 
-
-
-
-@media (max-width:450px){
+@media (max-width:1024px){
     html{
         font-size: 50%;
     }
@@ -620,13 +637,66 @@ section{
         background: #000;
     }
 
-    .navbar{
-        width: 50%;
+    .heading{
+        font-size: 3rem ;
+    }
+
+    .products .box-container .box{
+        width: 100%;
+    }
+
+    .products .box-container .box a .btn{
+        margin-left: 24px;
+        font-size: 12px;
+        padding: 6px;
+
+    }
+
+    .products .box-container .box .image img{
+        width: 100%;
+    }
+
+    .products .box-container .box{
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media (max-width:896px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        width:  50%;
         background: #000;
     }
 
     .heading{
         font-size: 3rem ;
     }
+
+    .products .box-container .box{
+        width: 100%;
+    }
+
+    .products .box-container .box a .btn{
+        margin-left: 24px;
+        font-size: 12px;
+        padding: 6px;
+
+    }
+
+    .products .box-container .box .image img{
+        width: 100%;
+    }
+
+    .products .box-container .box{
+        width: 100%;
+    }
+
+
 }
 

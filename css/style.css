@@ -615,6 +615,16 @@ section{
     html{
         font-size: 50%;
     }
+    .header{
+        width:  50%;
+        background: #000;
+    }
+
+    .navbar{
+        width: 50%;
+        background: #000;
+    }
+
     .heading{
         font-size: 3rem ;
     }

@@ -6,14 +6,13 @@
 
 body {
     height: 100vh;
-    background: pink;
+    background: rgba(244, 165, 178, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 a{
     background: pink;
-    margin-bottom: 40rem;
     border: 1px solid #999;
     padding: .5rem;
     text-decoration: none;
@@ -21,8 +20,9 @@ a{
     color: #000;
 }
 
+
 h1{
-    color: #4ec197;
+    color: #000;
     text-align: center;
     margin: 1rem;
 }
@@ -32,28 +32,29 @@ h1{
     width: 50%;
     padding: 30px;
     height: 60vh;
+    border-radius: 2rem;
 }
 
 .container {
     color: white;
     display: flex;
     flex: 1;
-    background: rgb(79, 92, 92);
+    background: rgba(128, 128, 128, 0.485);
     width: 100%;
-
+    border-radius: 2rem;
 }
 
 .container .Ps {
-    background-color: #4ec197;
+    background-color:pink;
     color: white;
     padding: 10px;
     flex: 1;
     text-align: center;
     font-weight: bold;
+    border-radius: 2rem;
 }
-
 .container p:not(.Ps) {
-    color: #ccc;
+    color: white;
     padding: 10px;
     flex: 1;
     text-align: center;
@@ -89,11 +90,12 @@ input[type="text"]{
 .btn-foot {
     width: 100%;
     padding: 12px;
-    background-color: #4ec197;
+    background-color: pink;
     color: white;
     border: none;
     font-weight: bold;
     font-size: 25px;
+    border-radius: 2rem;
 }
 .email{
     width: 100%;

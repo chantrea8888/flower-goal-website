@@ -76,9 +76,6 @@ section{
     padding: 2rem 9%;
 }
 
-
-
-
 .home{
     
     display: flex;
@@ -319,19 +316,20 @@ section{
     text-decoration:line-through;
 }
 .products .box-container .box .btn{
-    margin: 2rem;
-    margin-left: 8rem; 
-    margin-top: -1rem;
     display: flex;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
+    margin-left: 3rem; 
+    margin-top: -1rem;
+    
 }
 .products .box-container .box a .btn{
     margin-left: 3rem;    
+
 }
 
 .products .box-container .box a .btn:hover{
-    background: pink;
+    /* background: pink; */
 } */
 
 .products h2{
@@ -360,6 +358,8 @@ section{
     font-size: 2.5rem;
 
 }
+
+
 
 
 
